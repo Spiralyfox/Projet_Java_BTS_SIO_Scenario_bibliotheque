@@ -18,9 +18,11 @@ public class Auteur {
             System.out.println("Prénom : " + prenom);
             System.out.println("Date de naissance : " + naissance);
 
+        }
 
+        public void updateAnnee(int newnaissance) {
 
-
+            this.naissance = newnaissance;
 
     }
 }
